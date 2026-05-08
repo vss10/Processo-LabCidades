@@ -55,16 +55,23 @@ data/processed/saida.csv
 
 # Reprodução do Projeto
 
-## Pré-requisitos
+## 1. Clone o repositório
 
-- Python
-- Pip instalado
+```bash
+git clone https://github.com/vss10/Processo-LabCidades.git
+```
 
 ---
 
-## Instalação das dependências
+## 2. Entre na pasta do projeto
 
-Na raiz do projeto:
+```bash
+cd projeto-dividas-municipais
+```
+
+---
+
+## 3. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
@@ -72,18 +79,18 @@ pip install -r requirements.txt
 
 ---
 
-## Estrutura necessária
+## 4. Verifique a estrutura dos arquivos
 
 Os arquivos devem estar organizados da seguinte forma:
 
 ```text
 data/processed/debitos_tratados.csv
-parameters/parametros.txt
+parametros/parametros.txt
 ```
 
 ---
 
-## Execução
+## 5. Execute o programa
 
 Na raiz do projeto:
 
@@ -91,7 +98,7 @@ Na raiz do projeto:
 python src/main.py
 ```
 
----
+--- 
 
 # Resultado
 
