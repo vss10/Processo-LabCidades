@@ -93,7 +93,7 @@ python src/main.py
 
 ---
 
-# ✅ Resultado
+# Resultado
 
 O arquivo gerado será salvo em:
 
